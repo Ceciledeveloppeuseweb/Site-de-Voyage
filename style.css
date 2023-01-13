@@ -1,28 +1,31 @@
             /* CODE GENERAL */
+            
 * {
     margin: 0;
     padding: 0;
 }
 
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, "sans-serif";
     font-size: 15px;
 }
 h1 {
     font-family: "Crete Round", serif;
-    font-size: 45px;
+    font-size: 40px;
     color: #444;
     
 }
-.wrapper {
-    width: 980px;
-    margin: 0 auto;
-    padding: 0 10px;
+h2 {
+    color: #444;
+    font-size: 50px;
 }
+
 
 
 
             /* CODE SPECIFIQUE */
+
+/* header */
 
 .orange {
     color: #ff7a00;
@@ -62,4 +65,39 @@ a {
     text-transform: uppercase;
     color: #444;
     font-weight: bold;
+}
+
+/*  BANNER */
+
+#banner {
+    background: url("./assets/image2.jpg") center;
+    height: 580px;
+    width: 90%;
+    margin: auto;
+    border: 10px solid #444;
+    
+}
+#banner h2 {
+    font-weight: normal;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 40px 0 40px 0;
+    text-shadow: 1px 0px 2px #ff7a00, 0 0 1em blue, 0 0 0.4em blue;
+
+}
+.bold {
+    font-weight: bold;
+}
+.button {
+    font-size: 18px;
+    padding: 10px 15px;
+    background-color: #ff7a00;
+    color: #444;
+    border-radius: 5px;
+    text-align: center;
+    float: right;
+    margin-right: 30%;
+}
+.button:hover {
+    opacity: 0.7;
 }
